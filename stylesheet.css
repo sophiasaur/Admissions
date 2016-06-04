@@ -1,2 +1,17 @@
-.projectbullets {
+.body h1 {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.body h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.body h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.body p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }

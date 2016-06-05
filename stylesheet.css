@@ -14,9 +14,18 @@
 .body p {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    line-height: 150%;
 }
 
 .body li {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    list-style-type: circle;
+    line-height: 150%;
+}
+
+.body {
+    padding-left: 3pc;
+    padding-right: 3pc;
+    padding-bottom: 5pc;
 }

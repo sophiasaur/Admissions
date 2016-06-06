@@ -35,3 +35,34 @@
     font-weight: 100;
     line-height: 150%;
 }
+
+.electives table, tr,ul, li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 150%;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 1pc;
+    padding-right: 1pc;
+}
+
+
+.column-left {
+    float: left;
+    width: 25%;
+}
+
+.column-right {
+    display: inline-block;
+    width: 25%;
+}
+
+.column-center {
+    display: inline-block;
+    width: 25%;
+}
+
+.column-right-right {
+    float: right;
+    width: 24%;   
+}

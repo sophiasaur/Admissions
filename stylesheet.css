@@ -11,6 +11,11 @@
     font-weight: 300;
 }
 
+.body h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
 .body p {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -36,7 +41,10 @@
     line-height: 150%;
 }
 
-.electives table, tr,ul, li {
+.electives table,
+tr,
+ul,
+li {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     line-height: 150%;
@@ -45,7 +53,6 @@
     padding-left: 1pc;
     padding-right: 1pc;
 }
-
 
 .column-left {
     float: left;
@@ -64,5 +71,5 @@
 
 .column-right-right {
     float: right;
-    width: 24%;   
+    width: 24%;
 }

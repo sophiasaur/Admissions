@@ -13,7 +13,7 @@ li {
 }
 
 #nav {
-    background-color: aliceblue;
+    background-color: floralwhite;
 }
 
 #nav-wrapper {
@@ -27,6 +27,7 @@ li {
     padding: 0;
     margin: 0;
     position: relative;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 #nav ul li {
@@ -37,18 +38,32 @@ li {
     background-color: #333;
 }
 
-#nav ul li a,
-visited {
-    background-color: aliceblue;
+#nav ul li a {
+    background-color: floralwhite;
     display: block;
     padding: 15px;
     text-decoration: none;
+    color: black;
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#nav ul li a:visited {
+    background-color: floralwhite;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: darkgoldenrod;
 }
 
 #nav ul li a:hover {
     color: black;
     text-decoration: none;
 }
+
 
 #nav ul li:hover ul {
     display: block;
@@ -66,6 +81,7 @@ visited {
     display: block;
 }
 
+/*
 #nav ul ul li a,
 visited {
     color: #ccc;
@@ -73,4 +89,4 @@ visited {
 
 #nav ul ul li a:hover {
     color: #099;
-}
+}*/

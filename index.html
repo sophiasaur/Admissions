@@ -5,6 +5,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300' rel='stylesheet' type='text/css'>
     <link href='navigationbar.css' rel="stylesheet">
+    <link href="parallax.css" rel="stylesheet" type="text/css">
     <title>Bergen County Academies</title>
 </head>
 
@@ -26,6 +27,32 @@
 
         </div>
     </div>
+
+
+    <!-- This is where I'm going to try to do parallax -->
+    <div class="parallaxbody">
+        <div class="content">
+            <div class="parallax-bg">
+                <h1>BERGEN COUNTY ACADEMIES</h1></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            var documentEl = $(document),
+                parallaxBg = $('div.paralax-bg');
+
+            documentEl.on('scroll', function () {
+                var currScrollPos = documentEl.scrollTop();
+                parallaxBg.css('background-position', '0' + -currScrollPos / 4 + 'px');
+            });
+        })();
+    </script>
+
+
+    <!-- and here is where i most likely gave up -->
+
 </body>
 
 </html>

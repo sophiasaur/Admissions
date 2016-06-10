@@ -13,13 +13,14 @@ li {
 }
 
 #nav {
-    background-color: aliceblue;
+    background-color: white;
 }
 
 #nav-wrapper {
     width: 960px;
     margin: 0 auto;
     text-align: left;
+    position: fixed;
 }
 
 #nav ul {
@@ -39,14 +40,14 @@ li {
 
 #nav ul li a,
 visited {
-    background-color: aliceblue;
+    background-color: white;
     display: block;
     padding: 15px;
     text-decoration: none;
 }
 
 #nav ul li a:hover {
-    color: black;
+    color: #099;
     text-decoration: none;
 }
 
@@ -56,8 +57,8 @@ visited {
 
 #nav ul ul {
     display: none;
-    position: absolute;
-    background-color: aliceblue;
+    position: fixed;
+    background-color: white;
     border-top: 0;
     margin-left: -5px;
 }
@@ -68,7 +69,7 @@ visited {
 
 #nav ul ul li a,
 visited {
-    color: #ccc;
+    color: black;
 }
 
 #nav ul ul li a:hover {

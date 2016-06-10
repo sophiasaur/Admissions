@@ -29,7 +29,7 @@
     line-height: 150%;
 }
 
-.body {
+.dayinlife {
     padding-left: 3pc;
     padding-right: 3pc;
     padding-bottom: 5pc;
@@ -44,7 +44,7 @@
 .electives table,
 tr,
 ul,
-li {
+.column-left li {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     line-height: 150%;

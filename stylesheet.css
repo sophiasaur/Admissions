@@ -81,3 +81,19 @@ ul,
     float: right;
     width: 24%;
 }
+
+.welcome h1 {
+    padding-left: 30px;
+}
+
+.container1 {
+    float: left;
+    width: 500px;
+    padding-left: 30px;
+}
+
+.container2 {
+    float: left;
+    width: 500px;
+    padding-left: 20px;
+}

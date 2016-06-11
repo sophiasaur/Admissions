@@ -1,92 +1,88 @@
-/* okay so this is where the navigation bar things start */
-
-.navbody {
-    padding: 0;
+nav {
+     font-family: 'Roboto Slab', sans-serif;
     margin: 0;
-    overflow-y: scroll;
-    font-family: 'Roboto Slab', sans-serif;
-    background-color: white;
+    padding: 0;
+    width: 100%;
 }
 
-li {
-    color: black;
-}
-
-#nav {
-    background-color: floralwhite;
-}
-
-#nav-wrapper {
-    width: 960px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-#nav ul {
+nav ul {
+	-webkit-font-smoothing:antialiased;
+	text-shadow:0 1px 0 #FFF;
+    background: #FFFBD5;
+    list-style: none;
     list-style-type: none;
-    padding: 0;
     margin: 0;
-    position: relative;
+    padding: 0;
+    width: 100%;
     font-family: 'Roboto Slab', sans-serif;
 }
-
-#nav ul li {
-    display: inline-block;
+nav li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-width: 25%;
 }
-
-#nav ul li:hover {
-    background-color: #333;
-}
-
-#nav ul li a {
-    background-color: floralwhite;
+nav a {
+    background: #FFFBD5;
+    color: #444;
     display: block;
-    padding: 15px;
+    font-family: 'Roboto Slab', sans-serif;
+    font: bold 16px/50px 'Roboto Slab', sans-serif;
+    padding: 0 25px;
+    text-align: center;
     text-decoration: none;
-    color: black;
-    -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
 }
-
-#nav ul li a:visited {
-    background-color: floralwhite;
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    color: darkgoldenrod;
+nav .dropdown:after {
+    content: ' ▶';
 }
-
-#nav ul li a:hover {
-    color: black;
-    text-decoration: none;
+nav .dropdown:hover:after{
+	content:'\25bc'
 }
-
-
-#nav ul li:hover ul {
-    display: block;
+nav li:hover a {
+    background: #FFF9B5;
 }
-
-#nav ul ul {
-    display: none;
+nav li ul {
+    float: left;
+    left: 0;
+    opacity: 0;
     position: absolute;
-    background-color: aliceblue;
-    border-top: 0;
-    margin-left: -5px;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+nav li:hover ul {
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+}
+nav li ul li {
+    float: none;
+    width: 100%;
+}
+nav li ul a:hover {
+    background: #FFFBD5;
 }
 
-#nav ul ul li {
-    display: block;
-}
+/* Clearfix */
 
-/*
-#nav ul ul li a,
-visited {
-    color: #ccc;
+.cf:after, .cf:before {
+    content:"";
+    display:table;
 }
-
-#nav ul ul li a:hover {
-    color: #099;
-}*/
+.cf:after {
+    clear:both;
+}
+.cf {
+    zoom:1;
+}​

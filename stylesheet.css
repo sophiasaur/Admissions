@@ -1,5 +1,6 @@
 .body h1 {
     font-family: 'Roboto Slab', sans-serif;
+    
 }
 
 .body h2 {
@@ -27,6 +28,13 @@
     font-weight: 100;
     list-style-type: circle;
     line-height: 150%;
+}
+
+.body nav {
+    font-family: 'Roboto Slab', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
 }
 
 .dayinlife {

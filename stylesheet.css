@@ -85,8 +85,14 @@ a {
 }
 
 .dayinlife {
-    padding-left: 3pc;
-    padding-right: 3pc;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5pc;
+}
+
+.clubs {
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 5pc;
 }
 

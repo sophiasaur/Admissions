@@ -1,6 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .body h1 {
     font-family: 'Roboto Slab', sans-serif;
-    
 }
 
 .body h2 {
@@ -37,13 +41,9 @@
     list-style: none;
 }
 
-footer {
-    float:left;
-    width: 500px;
-    padding-left: 30px;
-}
-
-ul, li, a {
+ul,
+li,
+a {
     list-style: none;
 }
 
@@ -94,6 +94,8 @@ ul,
 
 .welcome h1 {
     padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .container1 {
@@ -108,3 +110,15 @@ ul,
     padding-left: 30px;
 }
 
+.footer {
+    position: static;
+    height: 20px;
+    bottom: 0px;
+    width: 100%;
+    /* Height of the footer */
+    text-align: center;
+}
+
+.welcome {
+    height: 100%;
+}

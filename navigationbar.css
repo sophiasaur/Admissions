@@ -42,7 +42,7 @@ nav a {
 }
 
 nav li:hover a {
-    background: #F1E99D;
+    background: #FFF9B5;
 }
 
 nav li ul {
@@ -72,7 +72,7 @@ nav li ul li {
 }
 
 nav li ul a:hover {
-    background: #F9F2B0;
+    background: #F8EF8C;
 }
 
 

@@ -93,8 +93,6 @@ ul,
     width: 24%;
 }
 
-
-
 .footer {
     position: static;
     height: 20px;
@@ -112,9 +110,13 @@ ul,
     text-align: center;
 }
 
-.accolades li{
+.accolades {
     padding-bottom: 20px;
     padding-left: 20px;
+}
+
+.accolades li {
+    list-style-type: circle;
 }
 
 #moreaccolades {
@@ -138,4 +140,14 @@ ul,
 .projectspadding {
     padding-right: 30px;
     padding-left: 30px;
+}
+
+#accolades {
+    padding: 20px 20px;
+}
+
+.youmust {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 150%;
 }

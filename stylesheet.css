@@ -103,6 +103,17 @@
         list-style: none;
     }
     
+    .body div.toggler {
+        background-color: #FFFBD5;
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+    
+    .body div.toggler div {
+        display: none;
+    }
+    
     #cf,
     li,
     a {

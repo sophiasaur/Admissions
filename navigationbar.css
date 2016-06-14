@@ -8,7 +8,7 @@
 nav ul {
     -webkit-font-smoothing: antialiased;
     text-shadow: 0 1px 0 #FFF;
-    background: #EED900;
+    background: #FFF15F;
     list-style: none;
     list-style-type: none;
     margin: 0;
@@ -26,7 +26,7 @@ nav li {
 }
 
 nav a {
-    background: #EED900;
+    background: #FFF15F;
     color: #444;
     display: block;
     font-family: 'Roboto Slab', sans-serif;

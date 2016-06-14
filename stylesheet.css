@@ -104,10 +104,20 @@
     }
     
     .body div.toggler {
-        background-color: #FFFBD5;
+        
         padding-left: 20px;
         padding-right: 20px;
         cursor: pointer;
+         -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    }
+    
+    .body div.toggler:hover {
+        
+        background-color: #FFFBD5;
     }
     
     .body div.toggler div {

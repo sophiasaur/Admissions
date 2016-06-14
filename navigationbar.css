@@ -8,7 +8,11 @@
 nav ul {
     -webkit-font-smoothing: antialiased;
     text-shadow: 0 1px 0 #FFF;
+<<<<<<< HEAD
     background: #FFF15F;
+=======
+    background: #FFF68F;
+>>>>>>> 2ff77885ff84a8fbf064f553caba7490575bbe65
     list-style: none;
     list-style-type: none;
     margin: 0;
@@ -26,7 +30,11 @@ nav li {
 }
 
 nav a {
+<<<<<<< HEAD
     background: #FFF15F;
+=======
+    background: #FFF36E;
+>>>>>>> 2ff77885ff84a8fbf064f553caba7490575bbe65
     color: #444;
     display: block;
     font-family: 'Roboto Slab', sans-serif;
@@ -72,7 +80,7 @@ nav li ul li {
 }
 
 nav li ul a:hover {
-    background: #F8EF8C;
+    background: #FFF36E;
 }
 
 
@@ -110,7 +118,6 @@ li {
 }
 
 #nav {
-    background-color: white;
     background-color: floralwhite;
 }
 

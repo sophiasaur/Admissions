@@ -8,11 +8,7 @@
 nav ul {
     -webkit-font-smoothing: antialiased;
     text-shadow: 0 1px 0 #FFF;
-<<<<<<< HEAD
-    background: #FFF15F;
-=======
     background: #FFF68F;
->>>>>>> 2ff77885ff84a8fbf064f553caba7490575bbe65
     list-style: none;
     list-style-type: none;
     margin: 0;
@@ -30,11 +26,7 @@ nav li {
 }
 
 nav a {
-<<<<<<< HEAD
-    background: #FFF15F;
-=======
     background: #FFF36E;
->>>>>>> 2ff77885ff84a8fbf064f553caba7490575bbe65
     color: #444;
     display: block;
     font-family: 'Roboto Slab', sans-serif;
@@ -104,101 +96,3 @@ nav li ul a:hover {
 
 
 /* okay so this is where the navigation bar things start */
-
-.navbody {
-    padding: 0;
-    margin: 0;
-    overflow-y: scroll;
-    font-family: 'Roboto Slab', sans-serif;
-    background-color: white;
-}
-
-li {
-    color: black;
-}
-
-#nav {
-    background-color: floralwhite;
-}
-
-#nav-wrapper {
-    width: auto;
-    margin: 0 auto;
-    text-align: left;
-    position: fixed;
-}
-
-#nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: fixed;
-    font-family: 'Roboto Slab', sans-serif;
-}
-
-#nav ul li {
-    display: inline-block;
-}
-
-#nav ul li:hover {
-    background-color: #333;
-}
-
-#nav ul li a,
-visited {
-    background-color: white;
-}
-
-#nav ul li a {
-    background-color: floralwhite;
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    color: black;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-}
-
-#nav ul li a:visited {
-    background-color: floralwhite;
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    color: darkgoldenrod;
-}
-
-#nav ul li a:hover {
-    color: #6f6f36;
-    text-decoration: none;
-}
-
-#nav ul li:hover ul {
-    display: block;
-    color: #a39a44;
-}
-
-#nav ul ul {
-    display: none;
-    position: fixed;
-    background-color: white;
-    border-top: 0;
-    margin-left: -5px;
-}
-
-#nav ul ul li {
-    display: block;
-    float: none;
-    width: 120px;
-}
-
-#nav ul ul li a,
-visited {
-    color: black;
-}
-
-#nav ul ul li a:hover {
-    color: #6f6f36;
-}

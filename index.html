@@ -48,16 +48,13 @@
             <div class="parallax-bg">
                 <h1 style="padding: 0px;">BERGEN COUNTY ACADEMIES</h1></div>
         </div>
-        <button id='button'></button>
     </div>
-
+    <button id='button'></button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script type="text/javascript">
         var parallaxBg = $('div.parallax-bg');
         (function () {
             var documentEl = $(document);
-
-
             documentEl.on('scroll', function () {
                 var currScrollPos = documentEl.scrollTop();
                 parallaxBg.css('background-position', '0' + -currScrollPos / 4 + 'px');
@@ -77,7 +74,6 @@
                 setTimeout(doSlideshow, 5000);
             });
         }
-<<<<<<< HEAD
     </script>
     <script>
         $("#button").click(function () {
@@ -85,8 +81,6 @@
                 scrollTop: $(".welcome").offset().top - 50
             }, 2000);
         });
-=======
->>>>>>> f89a81d257d055739b0d8ac643f9cb3fed764412
     </script>
     <!-- and here is where i most likely gave up -->
 
@@ -107,19 +101,21 @@
         </ul>
         <br>
 
-        </ul>
+
     </div>
     <div id="apply">
-        <h2>If you would like to <a href='apply.html' style="text-decoration: none; color: #EED900; text-shadow: 1px;">apply</a> to the Bergen County Academies: </h2>
-        <br>
-        <ol class="youmust">
-            <li>1. You must be a <strong>resident of Bergen County</strong> when you complete your application.</li>
-            <li>2. You must be in the <strong>8th grade by September 2016.</strong></li>
-            <li>3. If accepted <strong>you will begin your 9th grade year in September 2017;</strong> we do not accept transfer students or upperclassmen.</li>
+        <div>
+            <h2>If you would like to <a href='apply.html' style="text-decoration: none; color: #EED900; text-shadow: 1px;">apply</a> to the Bergen County Academies: </h2>
+            <br>
+            <ol class="youmust">
+                <li>1. You must be a <strong>resident of Bergen County</strong> when you complete your application.</li>
+                <li>2. You must be in the <strong>8th grade by September 2016.</strong></li>
+                <li>3. If accepted <strong>you will begin your 9th grade year in September 2017;</strong> we do not accept transfer students or upperclassmen.</li>
 
-        </ol>
+            </ol>
 
-        <ul>
+            <ul>
+        </div>
     </div>
     <div id='info'>
         <li>The Bergen County Academies in Hackensack, New Jersey was among the 285 public and 50 private schools nationwide to be recognized as 2015 National Blue Ribbon Schools. Bergen County Technical Schools Superintendent Dr. Howard Lerner, BCA Principal Mr. Russell Davis, and Mr. William Pavlu represented the school at a gala ceremony in Washington, D.C on November 9 and 10, 2015. Bergen County Academies was awarded Blue Ribbon status in the category of Exemplary High Performing Schools, a designation that acknowledges BCA as one of New Jersey's highest performing schools as measured by state assessments or nationally normed tests, student performance, and high school graduation rates.</li>

@@ -500,17 +500,6 @@
          padding-left: 30px;
          padding-right: 30px;
      }
-     #button {
-         background: url('http://cdn1.iconfinder.com/data/icons/iconslandplayer/PNG/64x64/CircleBlue/Play1Pressed.png') center center no-repeat;
-         margin: -240px 10px 0 0;
-         display: flex;
-         height: 140px;
-         width: 140px;
-         align-items: center;
-         position: relative;
-         z-index: 10;
-         border: 0;
-     }
      @media screen and (max-width:480px) {
          .body h1 {
              font-size: 30px;
@@ -524,6 +513,29 @@
              padding-left: 30px;
          }
      }
+ }
+ 
+ #button {
+     background: url('http://cdn1.iconfinder.com/data/icons/iconslandplayer/PNG/64x64/CircleBlue/Play1Pressed.png') center center no-repeat;
+     margin: -140px 50px 0 0;
+     display: flex;
+     overflow: hidden;
+     height: 140px;
+     width: 140px;
+     left: 45%;
+     top: -5%;
+     align-items: center;
+     position: relative;
+     border: 0;
+     z-index: 1;
+ }
+ 
+ :focus {
+     outline: none;
+ }
+ 
+ ::-moz-focus-inner {
+     border: 0;
  }
  
  .seniors {
@@ -541,4 +553,3 @@
      font-weight: 100;
      line-height: 150%;
  }
- 

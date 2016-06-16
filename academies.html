@@ -44,7 +44,12 @@
         $(function () {
             $('.toggler').click(function () {
                 $(this).find('.drop').slideToggle();
+                $('html,body').animate({
+                    scrollTop: $(this).offset().top - 70
+                }, 500);
                 $(this).find('.drop').parent().siblings().children().next().not('h4').slideUp();
+
+
             });
         });
     </script>

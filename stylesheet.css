@@ -130,6 +130,7 @@
      text-decoration: none;
      list-style-type: none;
      list-style: none;
+     z-index: 20;
  }
  
  .body div.toggler {
@@ -145,7 +146,6 @@
  
  .body div.toggler:hover {
      background-color: #FFFBD5;
-     =======
  }
  
  .body div.toggler:hover {
@@ -227,7 +227,6 @@
  .welcome {
      padding-bottom: 20px;
      padding-left: 20px;
-     background-color: #FFFBD5;
  }
  
  .welcome h1 {
@@ -246,7 +245,6 @@
  
  #accolades {
      padding: 20px 20px;
-     background-color: #FFF9B5;
  }
  
  #accolades h2 {
@@ -262,7 +260,6 @@
      padding-left: 20px;
      padding-bottom: 20px;
      padding-top: 10px;
-     background-color: #FFFBD5;
  }
  
  #apply h2 {
@@ -275,7 +272,6 @@
      font-weight: 100;
      line-height: 150%;
      padding-left: 30px;
-     background-color: #FFFBD5;
  }
  
  .youmust li {
@@ -290,7 +286,6 @@
      padding-bottom: 20px;
      padding-top: 20px;
      line-height: 150%;
-     background-color: #FFFEF0;
  }
  /* End of index elements */
  
@@ -516,18 +511,17 @@
  }
  
  #button {
-     background: url('http://cdn1.iconfinder.com/data/icons/iconslandplayer/PNG/64x64/CircleBlue/Play1Pressed.png') center center no-repeat;
+     background: url('media/arrow-204-64.png') center center no-repeat;
      margin: -140px 50px 0 0;
      display: flex;
      overflow: hidden;
      height: 140px;
      width: 140px;
      left: 45%;
-     top: -5%;
+     top: 0;
      align-items: center;
      position: relative;
      border: 0;
-     z-index: 1;
  }
  
  :focus {

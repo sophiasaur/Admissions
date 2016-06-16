@@ -8,10 +8,9 @@
     <link href="parallax.css" rel="stylesheet" type="text/css">
     <link href="animate.css" rel="stylesheet" type="text/css">
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
-
+	
     <title>Bergen County Academies</title>
 </head>
-
 <body class="body">
     <nav>
         <ul class='cf'>
@@ -50,15 +49,30 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script type="text/javascript">
+    var parallaxBg = $('div.parallax-bg');
         (function () {
-            var documentEl = $(document),
-                parallaxBg = $('div.paralax-bg');
+            var documentEl = $(document);
+                
 
             documentEl.on('scroll', function () {
                 var currScrollPos = documentEl.scrollTop();
                 parallaxBg.css('background-position', '0' + -currScrollPos / 4 + 'px');
             });
         })();
+        var images=new Array('media/Copy%20of%2006_O3_DSC_8248%20music%20orchestra.jpg','media/Copy%20of%20754_15820967062_o%20Global%20Education.jpg','media/Copy%20of%20Aishwarya%20Raja%20Senior%20Experience%20at%20Lundbeck%20Research%20USA%20(Mentor%20Noel%20Boyle).jpg','media/Copy%20of%20Baseball%20VoTech%20Champs%20sports.JPG','media/Copy%20of%20IMG_0878%20research.JPG','media/Copy%20of%20IMG_0908%20amst.JPG','media/Copy%20of%20IMG_4083%202%20atcs.JPG');
+		var nextimage=0;
+		doSlideshow();
+
+		function doSlideshow(){
+		    if(nextimage>=images.length){
+		    	nextimage=0;
+		    }
+		    // parallaxBg.css('transition', 'background 1s linear');
+		    parallaxBg.css('background-image','url("'+images[nextimage++]+'")').fadeIn(1000,function(){
+		        // parallaxBg.css('transition','all 0.2 ease');
+		        setTimeout(doSlideshow,5000);
+		    });
+		}
     </script>
     <!-- and here is where i most likely gave up -->
 

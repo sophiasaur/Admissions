@@ -337,3 +337,14 @@ ul,
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.sports {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sports li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 150%;
+}

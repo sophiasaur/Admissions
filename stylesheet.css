@@ -538,8 +538,26 @@
  }
  
  .sports {
-     padding-left: 20px;
-     padding-right: 20px;
+     padding-left: 30px;
+     padding-right: 30px;
+ }
+ 
+ .sports h1 {
+     padding-top: 10px;
+     padding-bottom: 20px;
+ }
+ 
+ .sports h2 {
+     padding-bottom: 20px;
+ }
+ 
+ .sports h3 {
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ 
+ .sports p {
+     padding-bottom: 20px;
  }
  
  .sports li {

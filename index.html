@@ -6,12 +6,22 @@
     <link rel="icon" type="image/png" href="media/bcalogo.png">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300' rel='stylesheet' type='text/css'>
+<<<<<<< HEAD
     <link href='navigationbar.css' rel="stylesheet">
     <link href="parallax.css" rel="stylesheet" type="text/css">
     <link href="animate.css" rel="stylesheet" type="text/css">
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
 
     <link href="newnav.css" rel="stylesheet" type="text/css">
+=======
+
+    <link href='css/navigationbar.css' rel="stylesheet">
+    <link href="css/parallax.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+>>>>>>> 3cd8418460b8cae02580eed556c3c1147f536441
 
 
     <title>Bergen County Academies</title>
@@ -19,66 +29,34 @@
 
 <body class="body">
 
-    <!--Scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src='navbar.js'></script>
-    <script type="text/javascript">
-        var parallaxBg = $('div.parallax-bg');
-        (function () {
-            var documentEl = $(document);
-            documentEl.on('scroll', function () {
-                var currScrollPos = documentEl.scrollTop();
-                parallaxBg.css('background-position', '0' + -currScrollPos / 4 + 'px');
-            });
-        })();
-        var images = new Array('media/Copy%20of%2006_O3_DSC_8248%20music%20orchestra.jpg', 'media/Copy%20of%20754_15820967062_o%20Global%20Education.jpg', 'media/Copy%20of%20Aishwarya%20Raja%20Senior%20Experience%20at%20Lundbeck%20Research%20USA%20(Mentor%20Noel%20Boyle).jpg', 'media/Copy%20of%20Baseball%20VoTech%20Champs%20sports.JPG', 'media/Copy%20of%20IMG_0878%20research.JPG', 'media/Copy%20of%20IMG_0908%20amst.JPG', 'media/Copy%20of%20IMG_4083%202%20atcs.JPG');
-        var nextimage = 0;
-        doSlideshow();
+    <nav>
+        <ul class='cf'>
+            <li><a href="index.html">Home</a></li>
+            <li><a class='dropdown' href="academies.html">Academies</a>
+                <ul>
+                    <li><a href='apply.html'>Apply</a></li>
+                </ul>
+            </li>
 
-        function doSlideshow() {
-            if (nextimage >= images.length) {
-                nextimage = 0;
-            }
-            // parallaxBg.css('transition', 'background 1s linear');
-            parallaxBg.css('background-image', 'url("' + images[nextimage++] + '")').fadeIn(2000, function () {
-                // parallaxBg.css('transition','all 0.2 ease');
-                setTimeout(doSlideshow, 5000);
-            });
-        }
+            <li><a class='dropdown' href="dayinlife.html">Student Life</a>
+                <ul>
+                    <li><a href="clubs.html">Clubs</a></li>
+                    <li><a href="electives.html">Electives</a></li>
+                    <li><a href="projects.html">Projects</a></li>
 
-        $("#button").click(function () {
-            $('html, body').animate({
-                scrollTop: $(".welcome").offset().top - 50
-            }, 2000);
-        });
-    </script>
+                    <li><a href="sports.html">Sports</a></li>
+                </ul>
+            </li>
+            <li><a class='dropdown' href="">Opportunities</a>
+                <ul>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="globaleducation.html">Global Education</a></li>
+                    <li><a href="seniorexperience.html">Senior Experience</a></li>
+                </ul>
+            </li>
 
-    <div class="content">
-        <div id="cssmenu" class="">
-            <div id="menu-button">Menu</div>
-            <ul style="display: block;">
-                <li><a href="#">Home</a></li>
-                <li class="active has-sub"><span class="submenu-button"></span><a href="#">Products</a>
-                    <ul style="display: block;">
-                        <li class="has-sub"><span class="submenu-button"></span><a href="#">Product 1</a>
-                            <ul style="display: block;">
-                                <li><a href="#">Sub Product</a></li>
-                                <li><a href="#">Sub Product</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-sub"><span class="submenu-button"></span><a href="#">Product 2</a>
-                            <ul style="display: block;">
-                                <li><a href="#">Sub Product</a></li>
-                                <li><a href="#">Sub Product</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </div>
+        </ul>
+    </nav>
 
     <!-- This is where I'm going to try to do parallax -->
     <div class="parallaxbody">
@@ -118,7 +96,6 @@
                 <li>3. If accepted <strong>you will begin your 9th grade year in September 2017;</strong> we do not accept transfer students or upperclassmen.</li>
 
             </ol>
-
             <ul>
         </div>
     </div>
@@ -134,6 +111,38 @@
     </div>
 
 
+   <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        var parallaxBg = $('div.parallax-bg');
+        (function () {
+            var documentEl = $(document);
+            documentEl.on('scroll', function () {
+                var currScrollPos = documentEl.scrollTop();
+                parallaxBg.css('background-position', '0' + -currScrollPos / 4 + 'px');
+            });
+        })();
+        var images = new Array('media/Copy%20of%2006_O3_DSC_8248%20music%20orchestra.jpg', 'media/Copy%20of%20754_15820967062_o%20Global%20Education.jpg', 'media/Copy%20of%20Aishwarya%20Raja%20Senior%20Experience%20at%20Lundbeck%20Research%20USA%20(Mentor%20Noel%20Boyle).jpg', 'media/Copy%20of%20Baseball%20VoTech%20Champs%20sports.JPG', 'media/Copy%20of%20IMG_0878%20research.JPG', 'media/Copy%20of%20IMG_0908%20amst.JPG', 'media/Copy%20of%20IMG_4083%202%20atcs.JPG');
+        var nextimage = 0;
+        doSlideshow();
+
+        function doSlideshow() {
+            if (nextimage >= images.length) {
+                nextimage = 0;
+            }
+            // parallaxBg.css('transition', 'background 1s linear');
+            parallaxBg.css('background-image', 'url("' + images[nextimage++] + '")').fadeIn(2000, function () {
+                // parallaxBg.css('transition','all 0.2 ease');
+                setTimeout(doSlideshow, 5000);
+            });
+        }
+
+        $("#button").click(function () {
+            $('html, body').animate({
+                scrollTop: $(".welcome").offset().top - 50
+            }, 2000);
+        });
+    </script>
 
 </body>
 

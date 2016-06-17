@@ -391,13 +391,16 @@
      line-height: 150%;
  }
  
- @media screen and (max-width:680px) {
+ @media screen and (max-width:650px) {
      ul.cf li:not(: first-child) {
          display: none;
      }
      ul.cf li.icon {
          float: right;
          display: inline-block;
+     }
+     .welcome h1 {
+         font-size: 20px;
      }
  }
  
@@ -417,5 +420,22 @@
      ul.cf.responsive li a {
          display: block;
          text-align: left;
+     }
+     .parallax-bg h1 {
+         font-size: 22px;
+     }
+     .parallax-bg {
+         background-size: cover;
+         background-attachment: fixed;
+         -webkit-transition: all 0.2 ease;
+         -moz-transition: all 0.2 ease;
+         transition: all 0.2 ease;
+     }
+     .footer {
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+     .welcome h1 {
+         font-size: 20px;
      }
  }

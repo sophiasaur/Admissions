@@ -15,14 +15,12 @@
 
 .parallax-bg {
     padding: 300px 0;
-    background-image: url(media/Copy%20of%2006_O3_DSC_8248%20music%20orchestra.jpg);
     background-size: cover;
     background-attachment: fixed;
     -webkit-transition: all 0.2 ease;
     -moz-transition: all 0.2 ease;
     transition: all 0.2 ease;
 }
-
 .parallax-bg h1 {
     text-align: center;
     color: white;

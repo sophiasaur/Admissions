@@ -97,29 +97,29 @@
  }
  
  @media screen and (max-width:680px) {
-     ul.cf li:not(: first-child) {
+     nav ul.cf li:not(: first-child) {
          display: none;
      }
-     ul.cf li.icon {
+     nav ul.cf li.icon {
          float: right;
          display: inline-block;
      }
  }
  
  @media screen and (max-width:680px) {
-     ul.cf.responsive {
+     nav ul.cf.responsive {
          position: relative;
      }
-     ul.cf.responsive li.icon {
+     nav ul.cf.responsive li.icon {
          position: absolute;
          right: 0;
          top: 0;
      }
-     ul.cf.responsive li {
+     nav ul.cf.responsive li {
          float: none;
          display: inline;
      }
-     ul.cf.responsive li a {
+     nav ul.cf.responsive li a {
          display: block;
          text-align: left;
      }

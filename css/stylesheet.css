@@ -335,7 +335,7 @@
  }
  
  #button {
-     background: url('media/arrow-204-64.png') center center no-repeat;
+     background: url('arrow-204-64.png') center center no-repeat;
      margin: -300px 50px 160px 0;
      display: flex;
      overflow: hidden;
@@ -390,6 +390,7 @@
      font-weight: 100;
      line-height: 150%;
  }
+<<<<<<< HEAD
  
  @media screen and (max-width:650px) {
      ul.cf li:not(: first-child) {
@@ -439,3 +440,6 @@
          font-size: 20px;
      }
  }
+=======
+ 
+>>>>>>> 1ef3d11af7f865449e1bc73082b0caf264a9cc1b

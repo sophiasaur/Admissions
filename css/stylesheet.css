@@ -335,7 +335,7 @@
  }
  
  #button {
-     background: url('media/arrow-204-64.png') center center no-repeat;
+     background: url('arrow-204-64.png') center center no-repeat;
      margin: -300px 50px 160px 0;
      display: flex;
      overflow: hidden;

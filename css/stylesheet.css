@@ -391,6 +391,10 @@
      line-height: 150%;
  }
  
+ ul.cf li.icon {
+     display: none;
+ }
+ 
  @media screen and (max-width:680px) {
      ul.cf li:not(: first-child) {
          display: none;

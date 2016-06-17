@@ -390,3 +390,32 @@
      font-weight: 100;
      line-height: 150%;
  }
+ 
+ @media screen and (max-width:680px) {
+     ul.cf li:not(: first-child) {
+         display: none;
+     }
+     ul.cf li.icon {
+         float: right;
+         display: inline-block;
+     }
+ }
+ 
+ @media screen and (max-width:680px) {
+     ul.cf.responsive {
+         position: relative;
+     }
+     ul.cf.responsive li.icon {
+         position: absolute;
+         right: 0;
+         top: 0;
+     }
+     ul.cf.responsive li {
+         float: none;
+         display: inline;
+     }
+     ul.cf.responsive li a {
+         display: block;
+         text-align: left;
+     }
+ }

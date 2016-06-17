@@ -1,4 +1,3 @@
 function myFunction() {
-    document.getElementsByClassName("cf")[0].classList.toggle("responsive");
+    document.getElementsByClassName("#cssmenu")[0].classList.toggle(".small-screen");
 }
-Try it Yourself »
